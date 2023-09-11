@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#383D58, #4EBFE9);
+    height: 100vh;
+    
+}
+
+.cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.logo_alura{
+    width: 260px;
+    height: 60px;
+    margin: 30px 20px 0px 0px;
+}
+
+.cabecalho_links{
+    width: 115px;
+    height: 19px;
+    display: inline-flex;
+    margin: 51px 20px 0px 0px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
+    
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.inicio_titulo{
+    padding: 150px 3px 0px 39px;
+    font-size: 32px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+
+.inicio_texto{
+    
+    display: flex;
+    width: 722px;
+    flex-direction: column;
+}
+
+.inicio_paragrafo{
+    padding: 33px 3px 0px 39px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+} 
+
+.image_inicio {
+    display: flex;
+    width: 306px;
+    height: 313px;
+    margin-top: 150px;
+}
+
